@@ -10,7 +10,7 @@ const { site } = useData()
   <div class="divide-y divide-gray-200 dark:divide-slate-200/5">
     <div class="w-fit pt-6 pb-8 space-y-2 md:space-y-5">
       <img src="/logo.png" class="relative max-w-2xl w-full" />
-      <p class="text-2xl leading-6 font-semibold text-gray-800 dark:text-white relative px-2">
+      <p class="text-2xl leading-6 font-extrabold text-brand dark:text-white relative px-2">
         {{ site.description }}
       </p>
     </div>

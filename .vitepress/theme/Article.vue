@@ -37,13 +37,13 @@ const prevPost = computed(() => posts[findCurrentIndex() + 1])
     >
       <Author />
       <div
-        class="relative p-6 bg-white border-rounded-4 shadow-card divide-y divide-gray-200 dark:divide-slate-200/5 xl:pb-0 xl:col-span-3 xl:row-span-2"
+        class="relative p-4 md:p-6 bg-white border-rounded-4 shadow-card divide-y divide-gray-200 dark:divide-slate-200/5 xl:pb-0 xl:col-span-3 xl:row-span-2"
       >
         <Content class="prose dark:prose-invert max-w-none pt-10 pb-8 vp-doc" />
       </div>
 
       <footer
-        class="relative text-sm font-medium leading-5 divide-y divide-gray-200 dark:divide-slate-200/5 xl:col-start-1 xl:row-start-2"
+        class="p-4 xl:p-0 relative text-sm font-medium leading-5 divide-y divide-gray-200 dark:divide-slate-200/5 xl:col-start-1 xl:row-start-2"
       >
         <div v-if="nextPost" class="py-8">
           <h2

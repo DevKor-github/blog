@@ -52,7 +52,7 @@ const { site, frontmatter } = useData()
         </div>
       </nav>
     </div>
-    <main class="max-w-5xl mx-auto px-4 sm:px-6 xl:px-0">
+    <main class="max-w-5xl mx-auto md:px-4 sm:px-6 xl:px-0">
       <Home v-if="frontmatter.index" />
       <Article v-else />
     </main>
